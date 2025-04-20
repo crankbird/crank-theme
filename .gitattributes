@@ -1,0 +1,4 @@
+* text=auto
+*.html linguist-language=HTML
+*.scss linguist-language=SCSS
+*.md linguist-language=Markdown

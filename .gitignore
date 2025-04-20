@@ -1,0 +1,11 @@
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+
+# Ruby / Bundler
+*.gem
+.bundle/
+vendor/
+
+# macOS cruft
+.DS_Store
