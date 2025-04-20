@@ -26,3 +26,14 @@ bundle exec jekyll serve
 ## License
 
 MIT
+
+## Developer Artifacts
+
+This repo includes a snapshot of example site content under `/dev-artifacts/dev-artifacts-crank-theme-snapshot.zip`.
+
+It can be used to quickly stand up a working test site in a `test` branch or separate repo.
+
+To use:
+1. Unzip it into your project root
+2. Run `bundle install`
+3. Start Jekyll with `bundle exec jekyll serve`

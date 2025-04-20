@@ -1,0 +1,19 @@
+<section class="post-list">
+  {% for post in site.posts %}
+    <article class="post-card">
+      <header>
+        <h2 class="post-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-meta">
+          {{ post.date | date: "%B %d, %Y" }}
+          {% if post.author %} • {{ post.author }}{% endif %}
+          {% if post.tags %} • Tags: {{ post.tags | array_to_sentence_string }}{% endif %}
+        </p>
+      </header>
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncate: 160 }}
+      </div>
+    </article>
+  {% endfor %}
+</section>

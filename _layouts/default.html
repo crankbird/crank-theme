@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">
+        <a href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Site Logo" />
+          <span class="site-title-text">{{ site.title | default: 'My Blog Title' }}</span>
+        </a>
+      </h1>
+    </div>
+
+    <nav class="site-nav">
+      <a href="{{ '/posts' | relative_url }}">Posts</a>
+      <a href="{{ '/about' | relative_url }}">About</a>
+      <a href="{{ '/design' | relative_url }}">Design</a>
+      <!-- <a href="{{ '/search' | relative_url }}">Search</a> (coming soon) -->
+    </nav>
+
+    <button id="theme-toggle">Toggle Theme</button>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.author | default: 'Author Name' }} —
+      <a href="{{ site.github_url | default: '#' }}">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+</body>
+
+</html>

@@ -9,3 +9,6 @@ vendor/
 
 # macOS cruft
 .DS_Store
+
+# Local temp file used for ChatGPT uploads
+rm.me.txt
