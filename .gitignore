@@ -4,7 +4,7 @@ _site/
 .sass-cache/
 vendor/
 
-# Do NOT keep example or artifacts in this repo
+# Do NOT keep demos or artifacts in this repo
 example/
 dev-artifacts/
 
