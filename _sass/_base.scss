@@ -1,0 +1,4 @@
+html { box-sizing: border-box; }
+*,*::before,*::after { box-sizing: inherit; }
+body { margin: 0; font-family: $cb-font-sans; color: $cb-color-ink; background: $cb-color-paper; line-height: 1.6; }
+img { max-width: 100%; height: auto; }
