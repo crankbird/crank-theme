@@ -1,7 +1,0 @@
-title: SCSS Test Site
-description: A minimal Jekyll site to confirm SCSS builds.
-author: Test Author
-
-sass:
-  sass_dir: _sass
-  style: compressed
