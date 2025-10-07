@@ -1,0 +1,7 @@
+/* This will be overwritten by compiled SCSS if using sassc plugin */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  margin: 2rem;
+  background: #fdfdfd;
+  color: #222;
+}

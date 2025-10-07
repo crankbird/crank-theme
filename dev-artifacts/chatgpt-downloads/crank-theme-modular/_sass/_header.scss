@@ -1,0 +1,17 @@
+--header-bg: #ffffffcc;
+    --header-border: #ccc;
+    --header-bg: #111111cc;
+    --header-border: #333;
+    padding-top: 200px; /* for sticky header spacing */
+/* Sticky Header Styles */
+.site-header {
+    background-color: var(--header-bg, #ffffffcc);
+    border-bottom: 1px solid var(--header-border, #ccc);
+.site-header h1 {
+    border-bottom: 2px solid var(--header-border);
+  }
+  
+  
+
+/* Header Styles */
+header {

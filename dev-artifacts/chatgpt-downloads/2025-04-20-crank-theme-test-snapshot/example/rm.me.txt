@@ -1,0 +1,33 @@
+total 40
+-rw-------@ 1 richardmartin  staff  137 20 Apr 11:08 _config.yml
+drwxr-xr-x@ 6 richardmartin  staff  192 20 Apr 21:42 _posts
+-rw-------@ 1 richardmartin  staff  411 20 Apr 11:08 about.md
+drwxr-xr-x@ 3 richardmartin  staff   96 20 Apr 21:40 assets
+-rw-------@ 1 richardmartin  staff  883 20 Apr 11:08 design.md
+-rw-------@ 1 richardmartin  staff   93 20 Apr 11:08 Gemfile
+-rw-------@ 1 richardmartin  staff  189 20 Apr 11:08 index.md
+-rw-r--r--@ 1 richardmartin  staff    0 21 Apr 12:21 rm.me.txt
+
+./_posts:
+total 32
+-rw-------  1 richardmartin  staff  550 20 Apr 05:26 2025-04-18-sample-post-3.md
+-rw-------  1 richardmartin  staff  550 20 Apr 05:26 2025-04-19-sample-post-2.md
+-rw-------  1 richardmartin  staff  550 20 Apr 05:26 2025-04-20-sample-post-1.md
+-rw-------@ 1 richardmartin  staff  315 20 Apr 11:08 2025-04-20-sample-post.md
+
+./assets:
+total 0
+drwxr-xr-x@ 12 richardmartin  staff  384 20 Apr 21:43 images
+
+./assets/images:
+total 192
+-rw-------@ 1 richardmartin  staff  12987 20 Apr 15:33 favicon.ico
+-rwxr-xr-x@ 1 richardmartin  staff  47460 18 Apr 21:41 logo.png
+-rw-------@ 1 richardmartin  staff     28 20 Apr 11:08 sample-1.png
+-rw-------@ 1 richardmartin  staff     28 20 Apr 11:08 sample-2.png
+-rw-------  1 richardmartin  staff     59 20 Apr 05:26 sample-post-1-1.png
+-rw-------  1 richardmartin  staff     59 20 Apr 05:26 sample-post-1-2.png
+-rw-------  1 richardmartin  staff     59 20 Apr 05:26 sample-post-2-1.png
+-rw-------  1 richardmartin  staff     59 20 Apr 05:26 sample-post-2-2.png
+-rw-------  1 richardmartin  staff     59 20 Apr 05:26 sample-post-3-1.png
+-rw-------  1 richardmartin  staff     59 20 Apr 05:26 sample-post-3-2.png
