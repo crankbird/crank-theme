@@ -1,3 +1,56 @@
-.badge { display:inline-block; padding:0 .4em; border:1px solid #ccc; border-radius:.25rem; font-size:.8125rem; }
-.badge-ai { border-color:#888; }
-.badge-reviewer { border-color:#2244ee; }
+.badge {
+    display: inline-block;
+    padding: 0 .4em;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    font-size: .8125rem;
+}
+
+.badge-ai {
+    border-color: #888;
+}
+
+.badge-reviewer {
+    border-color: #2244ee;
+}
+
+/* Minimal post layout styles */
+.post {
+    max-width: 68ch;
+    margin: 2rem auto;
+    padding: 0 1rem
+}
+
+.post-header {
+    margin-bottom: 1.25rem
+}
+
+.post-title {
+    margin: .2rem 0 0;
+    line-height: 1.2
+}
+
+.post-meta {
+    font-size: .9rem;
+    opacity: .75;
+    margin: .25rem 0 0
+}
+
+.post-content img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto
+}
+
+.post-content pre,
+.post-content code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+.post-content pre {
+    overflow: auto;
+    padding: .875rem;
+    border: 1px solid #e5e5e5;
+    border-radius: .375rem
+}
