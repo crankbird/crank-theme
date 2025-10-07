@@ -1,5 +1,12 @@
+# Jekyll / Ruby
 _site/
 .jekyll-cache/
 .sass-cache/
 vendor/
+
+# Do NOT keep example or artifacts in this repo
+example/
+dev-artifacts/
+
+# macOS
 .DS_Store
